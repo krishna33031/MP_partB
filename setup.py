@@ -36,6 +36,7 @@ def list_reqs(fname="requirements.txt"):
     with open(REQUIREMENTS_DIR / fname) as fd:
         return fd.read().splitlines()
 
+
 # Where the magic happens:
 setup(
     name=NAME,
